@@ -3,8 +3,6 @@ const dotenv  = require( 'dotenv' )
 
 dotenv.config({ path: './config.env' })
 
-
-
 // console.log(process.env.DB_HOST)
 //Option 2: Passing parameters separately (sqlite)
 const sequelize = new Sequelize({
